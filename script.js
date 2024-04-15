@@ -12,6 +12,8 @@ for (let i = 1; i <= 100; i++) {
     else console.log(i)
 }
 
+console.log("============================================================================")
+
 //Part 2: Prime Time
 let n = 350;
 let y = n+ 1 ;
@@ -23,12 +25,13 @@ for (i = 2; i < y  ; i++)
     }
     else
     {
-        console.log("Result :", y);
+        console.log("The next Prime Number :", y);
         break;
     }
 }
 
-// Feeling Loopy 
+console.log("============================================================================")
+// part 3 :Feeling Loopy 
 
 let inputStr = "ID,Name,Occupation,Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctor’s Assistant,26";
 let strArray = inputStr.split('\n');
